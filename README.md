@@ -4,6 +4,12 @@
 
 ## Here is all the tips and tricks to write notes in the github Readme. File
 
+Alt-H1
+======
+
+Alt-H2
+------
+
 ________________________________________________________________________________________________________________________________________________________________
 # Headings
 
@@ -104,11 +110,82 @@ ________________________________________________________________________________
   
 ________________________________________________________________________________________________________________________________________________________________
 
-# Uploading Assets
+# Tables 
 
+Colons can be used to align columns.  
+You must include a blank line before your table in order for it to correctly render  
+There must be atleast three hyphens in each column of the header row.
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 
+To include a | as content within your cell, use a \ before the pipe.
+
+________________________________________________________________________________________________________________________________________________________________
   
+# Organizing information with collapsed sections 
+
+<details><summary>CLICK ME</summary>  
+<p>
+   
+#### WE can hide anything, even code!
+   
+```
+
+   ruby
+   puts "Hello World"
+
+```
+   
+</p>
+</details>
+   
+________________________________________________________________________________________________________________________________________________________________
+
+# Uploading assets 
+
+You can upload assets like images by dragging and dropping, selecting from a file browser or pasting.
+
+# Using Emoji 
+
+You can add Emoji to your writing by typing :EMOJICODE:.
+
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+
+[Complete list of Emoji](https://gist.github.com/rxaviers/7360908#file-gistfile1-md)
+
+________________________________________________________________________________________________________________________________________________________________
+
+Three or more...
+
+---
+
+# For newline :
+
+Use 3fullstops at the end of the sentence to get new line
+
+This line is also a separate paragraph, but...
+This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+
+---
+
+# YouTube Videos 
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+---
 
